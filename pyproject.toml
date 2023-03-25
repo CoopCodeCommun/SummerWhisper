@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "testouille"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.0.0"
+jupyter = "^1.0.0"
+whisper = "^1.1.10"
+pyannote-audio = "^2.1.1"
+openai = "^0.27.2"
+transformers = "^4.27.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
